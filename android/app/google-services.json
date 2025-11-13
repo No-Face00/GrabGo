@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "57871863284",
+    "project_id": "tasky-app-4f8d0",
+    "storage_bucket": "tasky-app-4f8d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57871863284:android:5d344d86d7c4d0fd967da1",
+        "android_client_info": {
+          "package_name": "com.ic.flutter.app.ic_batch3_flutter_classes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGIKBF2HDGY3JxA_rHggx-OKhtXhFC_24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
