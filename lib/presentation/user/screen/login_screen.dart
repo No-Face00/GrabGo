@@ -87,7 +87,7 @@ class _LoginPageState extends State<LoginPage> {
                                   ),
 
                                   Text(
-                                    'Welcome to CraftyBay',
+                                    'Welcome to GrabGo',
                                      style: TextStyle(
                                        fontSize: 30,
                                        fontWeight: FontWeight.bold,
