@@ -790,7 +790,26 @@ class _AddToCartButton extends StatelessWidget {
         );
         ScaffoldMessenger.of(
           context,
-        ).showSnackBar(const SnackBar(content: Text('Added to cart')));
+        ).showSnackBar(const SnackBar(
+            backgroundColor: primaryColor ,
+            behavior: SnackBarBehavior.floating,
+            duration: Duration(seconds: 1),
+
+            elevation: 5,
+
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.all(
+                  Radius.circular(16),
+                )
+            ),
+            content: Text('Added to cart',
+              style: TextStyle(
+                fontFamily: 'Outfit',
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                color: textPrimary,
+              ),
+            )));
       },
       style: FilledButton.styleFrom(
         backgroundColor: secondaryColor,
